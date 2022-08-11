@@ -91,7 +91,7 @@ final class WebRTCClient: NSObject {
                                              optionalConstraints: nil)
         self.peerConnection.answer(for: constrains) { (sdp, error) in
             guard let sdp = sdp else {
-                debugPrint("Answer SDP failed: \(error)")
+                debugPrint("Answer SDP failed: \(String(describing: error))")
                 return
             }
             
