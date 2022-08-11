@@ -9,5 +9,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "13.0"
   s.source_files = 'WebRTC.Swift/*.{swift}'
   s.vendored_frameworks = "WebRTC.Swift/*.framework"
+  #依赖库
+  s.frameworks   = 'Foundation', 'UIKit','AVFoundation'
   s.static_framework = false
 end
