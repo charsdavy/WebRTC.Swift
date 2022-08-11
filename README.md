@@ -18,11 +18,9 @@ chars.davy(chars.davy@gmail.com)
 
 # Changelog
 
-## v0.2
+## v0.3
 
 * Extensions
-
-## v0.1
 * WebRTC.framework is Google v104.0.0
 
 
