@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "WebRTC.Swift"
-  s.version      = "0.2"
+  s.version      = "0.3"
   s.summary      = "Swift is used to encapsulate the underlying interface of WebrTC library."
   s.homepage     = "https://github.com/charsdavy/WebRTC.Swift"
   s.license      = 'MIT'
