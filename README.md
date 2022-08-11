@@ -9,7 +9,7 @@ This class can be installed with **Cocoapods**.
 Add the cocoapod to your Podfile:
 
 ```ruby
-pod 'WebRTC.Swift', :git => 'ssh://git@github.com:charsdavy/WebRTC.Swift.git'
+pod 'WebRTC.Swift'
 ```
 
 # Maintainer
@@ -17,6 +17,10 @@ pod 'WebRTC.Swift', :git => 'ssh://git@github.com:charsdavy/WebRTC.Swift.git'
 chars.davy(chars.davy@gmail.com)
 
 # Changelog
+
+## v0.2
+
+* Extensions
 
 ## v0.1
 * WebRTC.framework is Google v104.0.0
