@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "git@github.com:charsdavy/WebRTC.Swift.git", :tag => s.version.to_s }
   s.ios.deployment_target = "13.0"
   s.swift_versions = ['5.0']
-  s.source_files = 'WebRTC.Swift/*.{swift}'
+  s.source_files = 'WebRTC.Swift/**/*.swift'
   s.vendored_frameworks = "WebRTC.Swift/*.framework"
   #依赖库
   s.frameworks   = 'Foundation','UIKit','AVFoundation'
